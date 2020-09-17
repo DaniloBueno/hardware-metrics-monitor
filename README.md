@@ -7,6 +7,8 @@ This is a web application that monitors your computer's hardware metrics. The me
 
 First, there is a shell script that gathers these metrics and stores them in a MongoDB collection. Then, when you access the Angular app in your browser, it will hit the api server that fetches these metrics in the storage. The metrics are displayed in graphs generate by Chart.js library.
 
+![Webapp example](https://raw.githubusercontent.com/DaniloBueno/hardware-metrics-monitor/master/readme-image.png)
+
 ### Requirements
 - OS Ubuntu or another Linux distro
 - MongoDB installed

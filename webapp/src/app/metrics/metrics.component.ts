@@ -9,7 +9,7 @@ import {MetricsService} from './metrics.service';
 })
 export class MetricsComponent implements OnInit {
 
-    private AUTO_REFRESH_TIME = 60000 * 5;
+    private AUTO_REFRESH_TIME = 60000 * 5 // 5 minutes;
     private CHART_PARAMETERS = {
         type: 'line',
         data: {
